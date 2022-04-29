@@ -14,5 +14,6 @@ WIP
 
 ### Getting started
 
-1. [Create the evaluation set](./docs/build_evaluation.md)
-2. [Compute the accuracy](./docs/compute_accuracy.md)
+1. [Install](./docs/installation.md)
+2. [Create the evaluation set](./docs/build_evaluation.md)
+3. [Compute the accuracy](./docs/compute_accuracy.md)
