@@ -77,4 +77,5 @@ python -m paraphone.cli child_workspace/ synth test
 python -m paraphone.cli child_workspace/ synth all
 ```
 
-Before synthetizing audio, you should make sure you have a file `credentials.json` in `child_workspace/synth` to be able to authenticate to the Google TTS API (see [documentation](https://cloud.google.com/docs/authentication)).
+Before synthetizing audio, you should make sure you have a file `credentials.json` in `child_workspace/synth` to be able to authenticate to the Google TTS API (see [documentation](https://cloud.google.com/docs/authentication), [here](https://cloud.google.com/docs/authentication/production) in particular).
+You can test if requests to the Google TTS work well by running `python test_synth.py`.
