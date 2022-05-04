@@ -3,7 +3,7 @@
 1) Download transcripts from CHILDES:
 
 ```bash
-python childes/download_transcript.py
+python scripts/download_transcript.py
 ```
 
 This will create a file `data/transcripts/sentences.csv` that contain all sentences of American English CHILDES.
@@ -11,7 +11,13 @@ This will create a file `data/transcripts/sentences.csv` that contain all senten
 2) Split sentences by corpora in `.txt` files and remove unused speakers
 
 ```bash
-python childes/split_and_prepare.py
+python scripts/split_and_prepare.py
+```
+
+3) Download worbank data:
+
+```bash
+R scripts/download_worbank.R
 ```
 
 ## Create non-words
