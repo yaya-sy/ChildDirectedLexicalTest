@@ -74,7 +74,7 @@ python -m paraphone.cli child_workspace/ filter ngram --corpus 1 --num-to-keep 1
 python -m paraphone.cli child_workspace/ synth test
 
 # Then the actual synthesis
-python -m paraphone.cli child_workspace/ synth all
+python -m paraphone.cli child_workspace/ synth corpora
 ```
 
 Before synthetizing audio, you should make sure you have a file `credentials.json` in `child_workspace/synth` to be able to authenticate to the Google TTS API (see [documentation](https://cloud.google.com/docs/authentication), [here](https://cloud.google.com/docs/authentication/production) in particular).
