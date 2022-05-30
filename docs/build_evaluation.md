@@ -3,7 +3,7 @@
 1) Download transcripts from CHILDES:
 
 ```bash
-python childes/download_transcript.py
+python scripts/download_transcript.py
 ```
 
 This will create a file `data/transcripts/sentences.csv` that contain all sentences of American English CHILDES.
@@ -11,7 +11,13 @@ This will create a file `data/transcripts/sentences.csv` that contain all senten
 2) Split sentences by corpora in `.txt` files and remove unused speakers
 
 ```bash
-python childes/split_and_prepare.py
+python scripts/split_and_prepare.py
+```
+
+3) Download worbank data:
+
+```bash
+R scripts/download_worbank.R
 ```
 
 ## Create non-words
@@ -74,7 +80,8 @@ python -m paraphone.cli child_workspace/ filter ngram --corpus 1 --num-to-keep 1
 python -m paraphone.cli child_workspace/ synth test
 
 # Then the actual synthesis
-python -m paraphone.cli child_workspace/ synth all
+python -m paraphone.cli child_workspace/ synth corpora
 ```
 
-Before synthetizing audio, you should make sure you have a file `credentials.json` in `child_workspace/synth` to be able to authenticate to the Google TTS API (see [documentation](https://cloud.google.com/docs/authentication)).
+Before synthetizing audio, you should make sure you have a file `credentials.json` in `child_workspace/synth` to be able to authenticate to the Google TTS API (see [documentation](https://cloud.google.com/docs/authentication), [here](https://cloud.google.com/docs/authentication/production) in particular).
+You can test if requests to the Google TTS work well by running `python test_synth.py`.

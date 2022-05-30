@@ -1,4 +1,4 @@
-## 1) CHILDES
+## 1) CHILDES & Wordbank
 
 1) Create conda env, and install package `childespy`:
 
@@ -11,6 +11,7 @@ conda activate cdlex
 
 ```R
 devtools::install_github("langcog/childesr", "0.2.1")
+devtools::install_github("langcog/wordbankr")
 ```
 
 Install `childespy` python package:
