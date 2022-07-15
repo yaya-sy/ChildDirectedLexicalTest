@@ -81,6 +81,9 @@ python -m paraphone.cli child_workspace/ synth test
 
 # Then the actual synthesis
 python -m paraphone.cli child_workspace/ synth corpora
+
+# Convert everything to ZR2021 format (not mandatory)
+python -m paraphone.cli child_workspace/ corpora zerospeech /tmp/child_lexical_zr_format --use_grapheme
 ```
 
 Before synthetizing audio, you should make sure you have a file `credentials.json` in `child_workspace/synth` to be able to authenticate to the Google TTS API (see [documentation](https://cloud.google.com/docs/authentication), [here](https://cloud.google.com/docs/authentication/production) in particular).
