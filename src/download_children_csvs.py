@@ -6,12 +6,8 @@ from typing import Set
 import pandas
 import childespy
 
-CHILDREN: Set[str] = {'Alex',
-                      'Ethan',
-                      'Lily',
-                      'Naima',
-                      'Violet',
-                      'William'}
+CHILDREN: Set[str] = {'Alex', 'Ethan', 'Lily',
+                      'Naima', 'Violet', 'William'}
 
 def downloads_children_csvs(out_directory_name: str) -> None:
     """
@@ -34,13 +30,11 @@ def downloads_children_csvs(out_directory_name: str) -> None:
 if __name__ == "__main__" :
     from argparse import ArgumentParser
     parser = ArgumentParser()
-
     parser.add_argument("--out_directory_name",
                         help="The directory where outputs will be stored.",
                         required=True)
     args = parser.parse_args()
-    out_directory_name = args.out_directory_name
-    childespy = args.childespy
+    out_directory_name: str = args.out_directory_name
     if not os.path.exists(out_directory_name):
         os.makedirs(out_directory_name)
     downloads_children_csvs(out_directory_name)
