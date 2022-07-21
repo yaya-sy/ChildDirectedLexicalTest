@@ -3,7 +3,6 @@ of the 6 children of the Providence corpus"""
 
 import os
 from typing import Set
-import pandas
 import childespy
 
 CHILDREN: Set[str] = {'Alex', 'Ethan', 'Lily',
@@ -34,7 +33,6 @@ if __name__ == "__main__" :
                         help="The directory where outputs will be stored.",
                         required=True)
     args = parser.parse_args()
-    out_directory_name: str = args.out_directory_name
-    if not os.path.exists(out_directory_name):
-        os.makedirs(out_directory_name)
-    downloads_children_csvs(out_directory_name)
+    if not os.path.exists(args.out_directory_name):
+        os.makedirs(args.out_directory_name)
+    downloads_children_csvs(args.out_directory_name)
