@@ -1,0 +1,8 @@
+[DEBUG]:paraphone|Checking requirements for task WorkspaceInitTask
+[INFO]:paraphone|Running task WorkspaceInitTask
+[DEBUG]:paraphone|Checking output for task WorkspaceInitTask
+[DEBUG]:paraphone|Created file child_workspace/logs
+[DEBUG]:paraphone|Created file child_workspace/logs/commands.log
+[DEBUG]:paraphone|Created file child_workspace/logs/outputs
+[DEBUG]:paraphone|Created file child_workspace/datasets
+[DEBUG]:paraphone|Created file child_workspace/config.yml

@@ -1,0 +1,10 @@
+[DEBUG]:paraphone|Checking requirements for task DatasetImportTask
+[DEBUG]:paraphone|Found required file child_workspace/datasets
+[INFO]:paraphone|Running task DatasetImportTask
+[INFO]:paraphone|Copying data/transcripts/text
+[INFO]:paraphone|Done.
+[INFO]:paraphone|Updating file index...
+[INFO]:paraphone|Update done. Added 1 texts to index.
+[DEBUG]:paraphone|Checking output for task DatasetImportTask
+[DEBUG]:paraphone|Created file child_workspace/datasets/index.csv
+[DEBUG]:paraphone|Created file child_workspace/datasets/raw/text/providence.txt

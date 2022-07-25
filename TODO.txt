@@ -1,0 +1,12 @@
+-> WorkSpace :
+    -> corpora : fichiers csv
+    -> phonemized : fichier all.csv avec columns [word, phones]. PhonemizeTask le fait !
+
+-> Class dependencies :
+    Initialiser un WorkSpace
+
+
+===== à faire ======
+-> OK : Paraphone task -> initialisation du WorkSpace
+-> TODO : créer le dataset/transcripts/text/un_fichier_par_enfant.txt (contient un énoncé par ligne)
+-> TODO : Paraphone task -> import le dataset du todo précédent
