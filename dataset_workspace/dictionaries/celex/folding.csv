@@ -1,0 +1,62 @@
+phon_celex,phon_ipa
+k,k
+p,p
+t,t
+s,s
+N,ŋ
+v,v
+f,f
+d,d
+T,θ
+b,b
+S,ʃ
+dZ,dʒ
+g,ɡ
+r,ɹ
+r*,ə ɹ
+n,n
+z,z
+m,m
+h,h
+Z,ʒ
+D,ð
+tS,tʃ
+j,j
+l,l
+w,w
+U,ʊ
+E,ɛ
+@,ə
+&,æ
+i:,iː
+O:,ɔ
+I,ɪ
+aI,aɪ
+O,ɑ
+@U,oʊ
+V,ʌ
+eI,eɪ
+I@,iː ə
+aU,aʊ
+A:,ɑ
+u:,uː
+3:,ɜː
+U@,ʊ ə
+OI,ɔɪ
+x,x
+A~:,ɑ n
+A~: N,ɑ ŋ
+A~: n,ɑ n
+O~:,ɔ n
+O~: N,ɔ ŋ
+O~: n,ɔ n
+&~:,ɛ n
+&~: N,ɛ ŋ
+&~: n,ɛ n
+&~,ɛ n
+&~ N,ɛ ŋ
+&~ n,ɛ n
+"N,",ə ŋ
+"n,",ə n
+"m,",ə m
+"l,",ə l

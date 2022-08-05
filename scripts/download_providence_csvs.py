@@ -1,6 +1,7 @@
 """This script downloads the CSV data\
 of the 6 children of the Providence corpus"""
 
+from pathlib import Path
 import os
 from typing import Set
 import childespy
@@ -33,6 +34,6 @@ if __name__ == "__main__" :
                         help="The directory where outputs will be stored.",
                         required=True)
     args = parser.parse_args()
-    if not os.path.exists(args.out_directory_name):
-        os.makedirs(args.out_directory_name)
-    downloads_children_csvs(args.out_directory_name)
+    out_directory_name = Path(args.out_directory_name)
+    out_directory_name.mkdir(parents=True, exist_ok=True)
+    downloads_children_csvs(out_directory_name)

@@ -1,5 +1,0 @@
-[DEBUG]:paraphone|Checking requirements for task FamiliesImportTask
-[DEBUG]:paraphone|Found required file child_workspace/datasets/index.csv
-[DEBUG]:paraphone|Found required file child_workspace/config.yml
-[INFO]:paraphone|Running task FamiliesImportTask
-[INFO]:paraphone|Loading families from data/transcripts/text/metadata.csv...

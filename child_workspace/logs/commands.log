@@ -1,2 +1,0 @@
-child_workspace/ init --lang en
-child_workspace/ import dataset data/transcripts/text/ --type childes --copy
