@@ -5,7 +5,6 @@
 -> Class dependencies :
     Initialiser un WorkSpace
 
-
 ===== à faire ======
 -> OK : Paraphone task -> initialisation du WorkSpace
 -> TODO : créer le dataset/transcripts/text/un_fichier_par_enfant.txt (contient un énoncé par ligne)
